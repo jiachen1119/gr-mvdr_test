@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="mvdr__pydoc__template_8h" kind="file" language="C++">
+    <compoundname>mvdr_pydoc_template.h</compoundname>
+    <includes local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>mvdr_pydoc_template.h</label>
+        <link refid="mvdr__pydoc__template_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="mvdr__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="docs_2doxygen_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr,mvdr_test, __VA_ARGS__ )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tang/CLionProjects/OOT_test/gr-mvdr_test/python/mvdr_test/bindings/docstrings/mvdr_pydoc_template.h" line="10" column="10" bodyfile="/home/tang/CLionProjects/OOT_test/gr-mvdr_test/python/mvdr_test/bindings/docstrings/mvdr_pydoc_template.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="mvdr__pydoc__template_8h_1aa62c9d74cf02928c71067fb4dc5abbe4" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_mvdr_test_mvdr</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_mvdr_test_mvdr</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tang/CLionProjects/OOT_test/gr-mvdr_test/python/mvdr_test/bindings/docstrings/mvdr_pydoc_template.h" line="19" column="20" bodyfile="/home/tang/CLionProjects/OOT_test/gr-mvdr_test/python/mvdr_test/bindings/docstrings/mvdr_pydoc_template.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mvdr__pydoc__template_8h_1a5d92870bfe7231a6176e25576dc22ff9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_mvdr_test_mvdr_mvdr</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_mvdr_test_mvdr_mvdr</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tang/CLionProjects/OOT_test/gr-mvdr_test/python/mvdr_test/bindings/docstrings/mvdr_pydoc_template.h" line="22" column="20" bodyfile="/home/tang/CLionProjects/OOT_test/gr-mvdr_test/python/mvdr_test/bindings/docstrings/mvdr_pydoc_template.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mvdr__pydoc__template_8h_1a60d2bcab65ff91eb06138f48eb226abb" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_mvdr_test_mvdr_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_mvdr_test_mvdr_make</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tang/CLionProjects/OOT_test/gr-mvdr_test/python/mvdr_test/bindings/docstrings/mvdr_pydoc_template.h" line="25" column="20" bodyfile="/home/tang/CLionProjects/OOT_test/gr-mvdr_test/python/mvdr_test/bindings/docstrings/mvdr_pydoc_template.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tang/CLionProjects/OOT_test/gr-mvdr_test/python/mvdr_test/bindings/docstrings/mvdr_pydoc_template.h"/>
+  </compounddef>
+</doxygen>

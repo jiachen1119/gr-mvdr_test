@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="mvdr__impl_8h" kind="file" language="C++">
+    <compoundname>mvdr_impl.h</compoundname>
+    <includes refid="mvdr_8h" local="no">gnuradio/mvdr_test/mvdr.h</includes>
+    <incdepgraph>
+      <node id="5">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="1">
+        <label>mvdr_impl.h</label>
+        <link refid="mvdr__impl_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>gnuradio/mvdr_test/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="2">
+        <label>gnuradio/mvdr_test/mvdr.h</label>
+        <link refid="mvdr_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1mvdr__test_1_1mvdr__impl" prot="public">gr::mvdr_test::mvdr_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1mvdr__test">gr::mvdr_test</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tang/CLionProjects/OOT_test/gr-mvdr_test/lib/mvdr_impl.h"/>
+  </compounddef>
+</doxygen>

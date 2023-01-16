@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_95e29a8b8ee7c54052c171a88bb95675" kind="dir">
+    <compoundname>cmake-build-debug</compoundname>
+    <innerdir refid="dir_f7983ae4123cf5d0d5022a3ecf033995">python</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tang/CLionProjects/OOT_test/gr-mvdr_test/cmake-build-debug/"/>
+  </compounddef>
+</doxygen>

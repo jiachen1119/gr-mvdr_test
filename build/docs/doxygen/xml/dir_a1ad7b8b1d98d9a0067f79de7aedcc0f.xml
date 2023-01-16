@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_a1ad7b8b1d98d9a0067f79de7aedcc0f" kind="dir">
+    <compoundname>bindings</compoundname>
+    <innerfile refid="cmake-build-debug_2python_2mvdr__test_2bindings_2pydoc__macros_8h">cmake-build-debug/python/mvdr_test/bindings/pydoc_macros.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tang/CLionProjects/OOT_test/gr-mvdr_test/cmake-build-debug/python/mvdr_test/bindings/"/>
+  </compounddef>
+</doxygen>

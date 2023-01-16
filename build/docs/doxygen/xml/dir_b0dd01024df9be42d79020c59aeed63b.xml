@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_b0dd01024df9be42d79020c59aeed63b" kind="dir">
+    <compoundname>mvdr_test</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="mvdr_8h">mvdr.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tang/CLionProjects/OOT_test/gr-mvdr_test/include/gnuradio/mvdr_test/"/>
+  </compounddef>
+</doxygen>

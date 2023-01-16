@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1mvdr__test_1_1mvdr__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::mvdr_test::mvdr_impl</compoundname>
+    <basecompoundref refid="classgr_1_1mvdr__test_1_1mvdr" prot="public" virt="non-virtual">gr::mvdr_test::mvdr</basecompoundref>
+    <includes refid="mvdr__impl_8h" local="no">mvdr_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1mvdr__test_1_1mvdr__impl_1a7096277d6f7c43489da33d5bca2e8f5a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mvdr_test::mvdr_impl::num_inputs_</definition>
+        <argsstring></argsstring>
+        <name>num_inputs_</name>
+        <initializer>=1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tang/CLionProjects/OOT_test/gr-mvdr_test/lib/mvdr_impl.h" line="20" column="9" bodyfile="/home/tang/CLionProjects/OOT_test/gr-mvdr_test/lib/mvdr_impl.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1mvdr__test_1_1mvdr__impl_1a8a64a45f01b16a482e45e48a45009a8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mvdr_test::mvdr_impl::mvdr_impl</definition>
+        <argsstring>(int num_inputs)</argsstring>
+        <name>mvdr_impl</name>
+        <param>
+          <type>int</type>
+          <declname>num_inputs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tang/CLionProjects/OOT_test/gr-mvdr_test/lib/mvdr_impl.h" line="23" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mvdr__test_1_1mvdr__impl_1afc66af3550fd7f2237e27605fec7b987" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mvdr_test::mvdr_impl::~mvdr_impl</definition>
+        <argsstring>() override</argsstring>
+        <name>~mvdr_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tang/CLionProjects/OOT_test/gr-mvdr_test/lib/mvdr_impl.h" line="24" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mvdr__test_1_1mvdr__impl_1a84357db2c03d25e6af91b5b05442db2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mvdr_test::mvdr_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required) override</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tang/CLionProjects/OOT_test/gr-mvdr_test/lib/mvdr_impl.h" line="27" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mvdr__test_1_1mvdr__impl_1a74b838ce7283f272ab2ea890cda80de8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::mvdr_test::mvdr_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items) override</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tang/CLionProjects/OOT_test/gr-mvdr_test/lib/mvdr_impl.h" line="29" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::mvdr_test::mvdr</label>
+        <link refid="classgr_1_1mvdr__test_1_1mvdr"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::mvdr_test::mvdr_impl</label>
+        <link refid="classgr_1_1mvdr__test_1_1mvdr__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::mvdr_test::mvdr</label>
+        <link refid="classgr_1_1mvdr__test_1_1mvdr"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::mvdr_test::mvdr_impl</label>
+        <link refid="classgr_1_1mvdr__test_1_1mvdr__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/tang/CLionProjects/OOT_test/gr-mvdr_test/lib/mvdr_impl.h" line="16" column="1" bodyfile="/home/tang/CLionProjects/OOT_test/gr-mvdr_test/lib/mvdr_impl.h" bodystart="17" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classgr_1_1mvdr__test_1_1mvdr__impl_1a84357db2c03d25e6af91b5b05442db2e" prot="public" virt="non-virtual"><scope>gr::mvdr_test::mvdr_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1mvdr__test_1_1mvdr__impl_1a74b838ce7283f272ab2ea890cda80de8" prot="public" virt="non-virtual"><scope>gr::mvdr_test::mvdr_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1mvdr__test_1_1mvdr_1a0ff68d0f4c11af0971d9ed5915a1f733" prot="public" virt="non-virtual"><scope>gr::mvdr_test::mvdr_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1mvdr__test_1_1mvdr__impl_1a8a64a45f01b16a482e45e48a45009a8f" prot="public" virt="non-virtual"><scope>gr::mvdr_test::mvdr_impl</scope><name>mvdr_impl</name></member>
+      <member refid="classgr_1_1mvdr__test_1_1mvdr__impl_1a7096277d6f7c43489da33d5bca2e8f5a" prot="private" virt="non-virtual"><scope>gr::mvdr_test::mvdr_impl</scope><name>num_inputs_</name></member>
+      <member refid="classgr_1_1mvdr__test_1_1mvdr_1a8a34298739da4364aeb53ff7842e770a" prot="public" virt="non-virtual"><scope>gr::mvdr_test::mvdr_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1mvdr__test_1_1mvdr__impl_1afc66af3550fd7f2237e27605fec7b987" prot="public" virt="non-virtual"><scope>gr::mvdr_test::mvdr_impl</scope><name>~mvdr_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

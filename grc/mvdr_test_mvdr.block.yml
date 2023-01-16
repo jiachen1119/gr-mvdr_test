@@ -1,0 +1,61 @@
+id: mvdr_test_mvdr
+label: mvdr
+category: '[Mvdr_test]'
+
+parameters:
+  -   id: type
+      label: IO Type
+      dtype: enum
+      options: [complex, float, int, short]
+      option_attributes:
+        fcn: [cc, ff, ii, ss]
+      hide: none
+  -   id: num_inputs
+      label: Num Inputs
+      dtype: int
+      default: '2'
+      hide: none
+  -   id: sampling_frequency
+      label: Sampling Frequency
+      dtype: float
+      default: 'samp_rate'
+      hide: none
+  -   id: taps
+      label: Taps
+      dtype: int
+      default: '5'
+      hide: none
+  -   id: ms_to_process
+      label: Ms to Process
+      dtype: int
+      hide: none
+  -   id: target_prn
+      label: Target PRN
+      dtype: int
+      hide: none
+
+inputs:
+- label: in
+  domain: stream
+  dtype: ${type}
+  multiplicity: ${num_inputs}
+
+outputs:
+- label: out
+  domain: stream
+  dtype: ${type}
+  multiplicity: 1
+
+asserts:
+  - ${ num_inputs > 1 }
+  - ${ num_inputs < 5 }
+  - ${ sampling_frequency > 0 }
+  - ${ target_prn >0 }
+  - ${ target_prn<33 }
+  - ${ taps>0}
+
+templates:
+  imports: from gnuradio import mvdr_test
+  make: mvdr_test.mvdr(${num_inputs},${sampling_frequency},${taps},${target_prn},${ms_to_process})
+
+file_format: 1

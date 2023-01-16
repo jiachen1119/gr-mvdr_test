@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_b3eb5e7216be941f0300568977591eb5" kind="dir">
+    <compoundname>mvdr_test</compoundname>
+    <innerdir refid="dir_c209bc12cc81ad190758df862c3e7ec9">bindings</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tang/CLionProjects/OOT_test/gr-mvdr_test/build/python/mvdr_test/"/>
+  </compounddef>
+</doxygen>
