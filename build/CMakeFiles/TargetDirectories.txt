@@ -54,10 +54,6 @@
 /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build/python/mvdr_test/CMakeFiles/install.dir
 /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build/python/mvdr_test/CMakeFiles/install/local.dir
 /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build/python/mvdr_test/CMakeFiles/install/strip.dir
-/home/tang/CLionProjects/OOT_test/gr-mvdr_test/build/python/mvdr_test/bindings/CMakeFiles/mvdr_test_python.dir
-/home/tang/CLionProjects/OOT_test/gr-mvdr_test/build/python/mvdr_test/bindings/CMakeFiles/extracted_docstrings.dir
-/home/tang/CLionProjects/OOT_test/gr-mvdr_test/build/python/mvdr_test/bindings/CMakeFiles/mvdr_test_docstrings.dir
-/home/tang/CLionProjects/OOT_test/gr-mvdr_test/build/python/mvdr_test/bindings/CMakeFiles/copy_bindings_for_tests.dir
 /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build/python/mvdr_test/bindings/CMakeFiles/test.dir
 /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build/python/mvdr_test/bindings/CMakeFiles/edit_cache.dir
 /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build/python/mvdr_test/bindings/CMakeFiles/rebuild_cache.dir

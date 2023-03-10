@@ -9,8 +9,8 @@
 #include <armadillo>
 struct matStruct{
     int sync_index_;
-    arma::mat sync_AbsoluteSample_;
     double start_sample_;
+    arma::mat phase_mat_;
     arma::mat differential_phase_;
     double differential_PhasePeak_;
 };

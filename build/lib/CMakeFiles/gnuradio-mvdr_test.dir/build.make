@@ -83,15 +83,35 @@ lib/CMakeFiles/gnuradio-mvdr_test.dir/mvdr_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-mvdr_test.dir/mvdr_impl.cc.s"
 	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tang/CLionProjects/OOT_test/gr-mvdr_test/lib/mvdr_impl.cc -o CMakeFiles/gnuradio-mvdr_test.dir/mvdr_impl.cc.s
 
+lib/CMakeFiles/gnuradio-mvdr_test.dir/matlab.cpp.o: lib/CMakeFiles/gnuradio-mvdr_test.dir/flags.make
+lib/CMakeFiles/gnuradio-mvdr_test.dir/matlab.cpp.o: ../lib/matlab.cpp
+lib/CMakeFiles/gnuradio-mvdr_test.dir/matlab.cpp.o: lib/CMakeFiles/gnuradio-mvdr_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tang/CLionProjects/OOT_test/gr-mvdr_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/gnuradio-mvdr_test.dir/matlab.cpp.o"
+	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/gnuradio-mvdr_test.dir/matlab.cpp.o -MF CMakeFiles/gnuradio-mvdr_test.dir/matlab.cpp.o.d -o CMakeFiles/gnuradio-mvdr_test.dir/matlab.cpp.o -c /home/tang/CLionProjects/OOT_test/gr-mvdr_test/lib/matlab.cpp
+
+lib/CMakeFiles/gnuradio-mvdr_test.dir/matlab.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-mvdr_test.dir/matlab.cpp.i"
+	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tang/CLionProjects/OOT_test/gr-mvdr_test/lib/matlab.cpp > CMakeFiles/gnuradio-mvdr_test.dir/matlab.cpp.i
+
+lib/CMakeFiles/gnuradio-mvdr_test.dir/matlab.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-mvdr_test.dir/matlab.cpp.s"
+	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tang/CLionProjects/OOT_test/gr-mvdr_test/lib/matlab.cpp -o CMakeFiles/gnuradio-mvdr_test.dir/matlab.cpp.s
+
 # Object files for target gnuradio-mvdr_test
 gnuradio__mvdr_test_OBJECTS = \
-"CMakeFiles/gnuradio-mvdr_test.dir/mvdr_impl.cc.o"
+"CMakeFiles/gnuradio-mvdr_test.dir/mvdr_impl.cc.o" \
+"CMakeFiles/gnuradio-mvdr_test.dir/matlab.cpp.o"
 
 # External object files for target gnuradio-mvdr_test
 gnuradio__mvdr_test_EXTERNAL_OBJECTS =
 
 lib/libgnuradio-mvdr_test.so.1.0.0.0: lib/CMakeFiles/gnuradio-mvdr_test.dir/mvdr_impl.cc.o
+lib/libgnuradio-mvdr_test.so.1.0.0.0: lib/CMakeFiles/gnuradio-mvdr_test.dir/matlab.cpp.o
 lib/libgnuradio-mvdr_test.so.1.0.0.0: lib/CMakeFiles/gnuradio-mvdr_test.dir/build.make
+lib/libgnuradio-mvdr_test.so.1.0.0.0: /usr/local/MATLAB/R2022b/bin/glnxa64/libeng.so
+lib/libgnuradio-mvdr_test.so.1.0.0.0: /usr/local/MATLAB/R2022b/bin/glnxa64/libmx.so
+lib/libgnuradio-mvdr_test.so.1.0.0.0: /usr/local/MATLAB/R2022b/bin/glnxa64/libmat.so
+lib/libgnuradio-mvdr_test.so.1.0.0.0: /usr/lib/libarmadillo.so
 lib/libgnuradio-mvdr_test.so.1.0.0.0: /usr/lib/x86_64-linux-gnu/libgnuradio-runtime.so.3.10.1.1
 lib/libgnuradio-mvdr_test.so.1.0.0.0: /usr/lib/x86_64-linux-gnu/libgnuradio-pmt.so.3.10.1.1
 lib/libgnuradio-mvdr_test.so.1.0.0.0: /usr/lib/x86_64-linux-gnu/libvolk.so.2.5.1
@@ -105,7 +125,7 @@ lib/libgnuradio-mvdr_test.so.1.0.0.0: /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1
 lib/libgnuradio-mvdr_test.so.1.0.0.0: /usr/lib/x86_64-linux-gnu/libgmpxx.so
 lib/libgnuradio-mvdr_test.so.1.0.0.0: /usr/lib/x86_64-linux-gnu/libgmp.so
 lib/libgnuradio-mvdr_test.so.1.0.0.0: lib/CMakeFiles/gnuradio-mvdr_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tang/CLionProjects/OOT_test/gr-mvdr_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libgnuradio-mvdr_test.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tang/CLionProjects/OOT_test/gr-mvdr_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libgnuradio-mvdr_test.so"
 	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gnuradio-mvdr_test.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build/lib && $(CMAKE_COMMAND) -E cmake_symlink_library libgnuradio-mvdr_test.so.1.0.0.0 libgnuradio-mvdr_test.so.1.0.0 libgnuradio-mvdr_test.so
 

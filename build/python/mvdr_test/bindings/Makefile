@@ -97,7 +97,7 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"pythonapi\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -171,110 +171,6 @@ depend:
 	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-python/mvdr_test/bindings/CMakeFiles/mvdr_test_python.dir/rule:
-	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 python/mvdr_test/bindings/CMakeFiles/mvdr_test_python.dir/rule
-.PHONY : python/mvdr_test/bindings/CMakeFiles/mvdr_test_python.dir/rule
-
-# Convenience name for target.
-mvdr_test_python: python/mvdr_test/bindings/CMakeFiles/mvdr_test_python.dir/rule
-.PHONY : mvdr_test_python
-
-# fast build rule for target.
-mvdr_test_python/fast:
-	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build && $(MAKE) $(MAKESILENT) -f python/mvdr_test/bindings/CMakeFiles/mvdr_test_python.dir/build.make python/mvdr_test/bindings/CMakeFiles/mvdr_test_python.dir/build
-.PHONY : mvdr_test_python/fast
-
-# Convenience name for target.
-python/mvdr_test/bindings/CMakeFiles/extracted_docstrings.dir/rule:
-	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 python/mvdr_test/bindings/CMakeFiles/extracted_docstrings.dir/rule
-.PHONY : python/mvdr_test/bindings/CMakeFiles/extracted_docstrings.dir/rule
-
-# Convenience name for target.
-extracted_docstrings: python/mvdr_test/bindings/CMakeFiles/extracted_docstrings.dir/rule
-.PHONY : extracted_docstrings
-
-# fast build rule for target.
-extracted_docstrings/fast:
-	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build && $(MAKE) $(MAKESILENT) -f python/mvdr_test/bindings/CMakeFiles/extracted_docstrings.dir/build.make python/mvdr_test/bindings/CMakeFiles/extracted_docstrings.dir/build
-.PHONY : extracted_docstrings/fast
-
-# Convenience name for target.
-python/mvdr_test/bindings/CMakeFiles/mvdr_test_docstrings.dir/rule:
-	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 python/mvdr_test/bindings/CMakeFiles/mvdr_test_docstrings.dir/rule
-.PHONY : python/mvdr_test/bindings/CMakeFiles/mvdr_test_docstrings.dir/rule
-
-# Convenience name for target.
-mvdr_test_docstrings: python/mvdr_test/bindings/CMakeFiles/mvdr_test_docstrings.dir/rule
-.PHONY : mvdr_test_docstrings
-
-# fast build rule for target.
-mvdr_test_docstrings/fast:
-	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build && $(MAKE) $(MAKESILENT) -f python/mvdr_test/bindings/CMakeFiles/mvdr_test_docstrings.dir/build.make python/mvdr_test/bindings/CMakeFiles/mvdr_test_docstrings.dir/build
-.PHONY : mvdr_test_docstrings/fast
-
-# Convenience name for target.
-python/mvdr_test/bindings/CMakeFiles/copy_bindings_for_tests.dir/rule:
-	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 python/mvdr_test/bindings/CMakeFiles/copy_bindings_for_tests.dir/rule
-.PHONY : python/mvdr_test/bindings/CMakeFiles/copy_bindings_for_tests.dir/rule
-
-# Convenience name for target.
-copy_bindings_for_tests: python/mvdr_test/bindings/CMakeFiles/copy_bindings_for_tests.dir/rule
-.PHONY : copy_bindings_for_tests
-
-# fast build rule for target.
-copy_bindings_for_tests/fast:
-	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build && $(MAKE) $(MAKESILENT) -f python/mvdr_test/bindings/CMakeFiles/copy_bindings_for_tests.dir/build.make python/mvdr_test/bindings/CMakeFiles/copy_bindings_for_tests.dir/build
-.PHONY : copy_bindings_for_tests/fast
-
-mvdr_python.o: mvdr_python.cc.o
-.PHONY : mvdr_python.o
-
-# target to build an object file
-mvdr_python.cc.o:
-	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build && $(MAKE) $(MAKESILENT) -f python/mvdr_test/bindings/CMakeFiles/mvdr_test_python.dir/build.make python/mvdr_test/bindings/CMakeFiles/mvdr_test_python.dir/mvdr_python.cc.o
-.PHONY : mvdr_python.cc.o
-
-mvdr_python.i: mvdr_python.cc.i
-.PHONY : mvdr_python.i
-
-# target to preprocess a source file
-mvdr_python.cc.i:
-	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build && $(MAKE) $(MAKESILENT) -f python/mvdr_test/bindings/CMakeFiles/mvdr_test_python.dir/build.make python/mvdr_test/bindings/CMakeFiles/mvdr_test_python.dir/mvdr_python.cc.i
-.PHONY : mvdr_python.cc.i
-
-mvdr_python.s: mvdr_python.cc.s
-.PHONY : mvdr_python.s
-
-# target to generate assembly for a file
-mvdr_python.cc.s:
-	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build && $(MAKE) $(MAKESILENT) -f python/mvdr_test/bindings/CMakeFiles/mvdr_test_python.dir/build.make python/mvdr_test/bindings/CMakeFiles/mvdr_test_python.dir/mvdr_python.cc.s
-.PHONY : mvdr_python.cc.s
-
-python_bindings.o: python_bindings.cc.o
-.PHONY : python_bindings.o
-
-# target to build an object file
-python_bindings.cc.o:
-	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build && $(MAKE) $(MAKESILENT) -f python/mvdr_test/bindings/CMakeFiles/mvdr_test_python.dir/build.make python/mvdr_test/bindings/CMakeFiles/mvdr_test_python.dir/python_bindings.cc.o
-.PHONY : python_bindings.cc.o
-
-python_bindings.i: python_bindings.cc.i
-.PHONY : python_bindings.i
-
-# target to preprocess a source file
-python_bindings.cc.i:
-	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build && $(MAKE) $(MAKESILENT) -f python/mvdr_test/bindings/CMakeFiles/mvdr_test_python.dir/build.make python/mvdr_test/bindings/CMakeFiles/mvdr_test_python.dir/python_bindings.cc.i
-.PHONY : python_bindings.cc.i
-
-python_bindings.s: python_bindings.cc.s
-.PHONY : python_bindings.s
-
-# target to generate assembly for a file
-python_bindings.cc.s:
-	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build && $(MAKE) $(MAKESILENT) -f python/mvdr_test/bindings/CMakeFiles/mvdr_test_python.dir/build.make python/mvdr_test/bindings/CMakeFiles/mvdr_test_python.dir/python_bindings.cc.s
-.PHONY : python_bindings.cc.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -288,16 +184,6 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... copy_bindings_for_tests"
-	@echo "... extracted_docstrings"
-	@echo "... mvdr_test_docstrings"
-	@echo "... mvdr_test_python"
-	@echo "... mvdr_python.o"
-	@echo "... mvdr_python.i"
-	@echo "... mvdr_python.s"
-	@echo "... python_bindings.o"
-	@echo "... python_bindings.i"
-	@echo "... python_bindings.s"
 .PHONY : help
 
 

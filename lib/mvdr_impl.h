@@ -8,12 +8,12 @@
 #ifndef INCLUDED_MVDR_TEST_MVDR_IMPL_H
 #define INCLUDED_MVDR_TEST_MVDR_IMPL_H
 
+#include "matlab/matlab.h"
 #include <gnuradio/mvdr_test/mvdr.h>
-#include <iostream>
+#include <mat.h>
 #include <armadillo>
 #include <cmath>
-#include <mat.h>
-#include "matlab.h"
+#include <iostream>
 #define pi 3.14159265358979323846
 
 namespace gr {

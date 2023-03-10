@@ -14,6 +14,12 @@
 # EXTERNAL cache entries
 ########################
 
+//Path to a file.
+ARMADILLO_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a library.
+ARMADILLO_LIBRARY:FILEPATH=/usr/lib/libarmadillo.so
+
 Boost_DATE_TIME_LIBRARY_RELEASE:STRING=/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.74.0
 
 //The directory containing a CMake configuration file for Boost.
@@ -333,7 +339,7 @@ boost_unit_test_framework_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_unit_te
 fmt_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/fmt
 
 //Dependencies for the target
-gnuradio-mvdr_test_LIB_DEPENDS:STATIC=general;gnuradio::gnuradio-runtime;
+gnuradio-mvdr_test_LIB_DEPENDS:STATIC=general;/usr/local/MATLAB/R2022b/bin/glnxa64/libeng.so;general;/usr/local/MATLAB/R2022b/bin/glnxa64/libmx.so;general;/usr/local/MATLAB/R2022b/bin/glnxa64/libmat.so;general;/usr/lib/libarmadillo.so;general;gnuradio::gnuradio-runtime;
 
 //Value Computed by CMake
 gr-mvdr_test_BINARY_DIR:STATIC=/home/tang/CLionProjects/OOT_test/gr-mvdr_test/build
@@ -361,6 +367,10 @@ spdlog_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/spdlog
 # INTERNAL cache entries
 ########################
 
+//ADVANCED property for variable: ARMADILLO_INCLUDE_DIR
+ARMADILLO_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ARMADILLO_LIBRARY
+ARMADILLO_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_DIR
 Boost_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_ADDR2LINE
@@ -514,6 +524,8 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 DOXYGEN_DOT_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: DOXYGEN_EXECUTABLE
 DOXYGEN_EXECUTABLE-ADVANCED:INTERNAL=1
+//Details about finding Armadillo
+FIND_PACKAGE_MESSAGE_DETAILS_Armadillo:INTERNAL=[/usr/include][/usr/lib/libarmadillo.so][v10.8.2()]
 //Details about finding Boost
 FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake][cfound components: date_time program_options system regex thread unit_test_framework ][v1.74.0(1.74.0)]
 //Details about finding Doxygen

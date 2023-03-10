@@ -119,7 +119,7 @@ int matlab_matRead::calculate_xcor(const matlab_matRead& xcor_array, int target_
     return mat2_move_index;
 }
 
-arma::mat matlab_matRead::getAbsoluteSample(int syncIndex, int prn, int sampleToProcess) {
+double matlab_matRead::getAbsoluteSample(int syncIndex, int prn) {
     int target_prn_flag=-1;
     for (int i = 0; i < prn_data_.size(); ++i) {
         if (prn_data_.at(i)==prn)
@@ -130,11 +130,11 @@ arma::mat matlab_matRead::getAbsoluteSample(int syncIndex, int prn, int sampleTo
     }
     if (target_prn_flag==-1){
         std::cerr<<"cannot find target prn!";
-        return nullptr;
+        return 0;
     }
     arma::mat target_mat=Absolute_sample_mat_.at(target_prn_flag);
-    target_mat=target_mat.cols(syncIndex,syncIndex+sampleToProcess-1);
-    return target_mat;
+    double target_data=target_mat(0,syncIndex);
+    return target_data;
 }
 
 const std::vector<arma::mat> &matlab_matRead::getIPsMat() const {

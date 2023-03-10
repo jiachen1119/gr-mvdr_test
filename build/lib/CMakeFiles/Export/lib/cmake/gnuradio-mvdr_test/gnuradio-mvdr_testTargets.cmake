@@ -55,7 +55,7 @@ add_library(gnuradio::gnuradio-mvdr_test SHARED IMPORTED)
 
 set_target_properties(gnuradio::gnuradio-mvdr_test PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "gnuradio::gnuradio-runtime"
+  INTERFACE_LINK_LIBRARIES "/usr/local/MATLAB/R2022b/bin/glnxa64/libeng.so;/usr/local/MATLAB/R2022b/bin/glnxa64/libmx.so;/usr/local/MATLAB/R2022b/bin/glnxa64/libmat.so;/usr/lib/libarmadillo.so;gnuradio::gnuradio-runtime"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

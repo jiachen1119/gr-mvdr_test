@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/gnuradio-mvdr_test.dir/matlab.cpp.o"
+  "CMakeFiles/gnuradio-mvdr_test.dir/matlab.cpp.o.d"
   "CMakeFiles/gnuradio-mvdr_test.dir/mvdr_impl.cc.o"
   "CMakeFiles/gnuradio-mvdr_test.dir/mvdr_impl.cc.o.d"
   "libgnuradio-mvdr_test.pdb"

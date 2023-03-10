@@ -97,7 +97,7 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"pythonapi\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -199,6 +199,30 @@ mvdr_test_qa_mvdr.cc/fast:
 	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mvdr_test_qa_mvdr.cc.dir/build.make lib/CMakeFiles/mvdr_test_qa_mvdr.cc.dir/build
 .PHONY : mvdr_test_qa_mvdr.cc/fast
 
+matlab.o: matlab.cpp.o
+.PHONY : matlab.o
+
+# target to build an object file
+matlab.cpp.o:
+	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/gnuradio-mvdr_test.dir/build.make lib/CMakeFiles/gnuradio-mvdr_test.dir/matlab.cpp.o
+.PHONY : matlab.cpp.o
+
+matlab.i: matlab.cpp.i
+.PHONY : matlab.i
+
+# target to preprocess a source file
+matlab.cpp.i:
+	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/gnuradio-mvdr_test.dir/build.make lib/CMakeFiles/gnuradio-mvdr_test.dir/matlab.cpp.i
+.PHONY : matlab.cpp.i
+
+matlab.s: matlab.cpp.s
+.PHONY : matlab.s
+
+# target to generate assembly for a file
+matlab.cpp.s:
+	cd /home/tang/CLionProjects/OOT_test/gr-mvdr_test/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/gnuradio-mvdr_test.dir/build.make lib/CMakeFiles/gnuradio-mvdr_test.dir/matlab.cpp.s
+.PHONY : matlab.cpp.s
+
 mvdr_impl.o: mvdr_impl.cc.o
 .PHONY : mvdr_impl.o
 
@@ -262,6 +286,9 @@ help:
 	@echo "... test"
 	@echo "... gnuradio-mvdr_test"
 	@echo "... mvdr_test_qa_mvdr.cc"
+	@echo "... matlab.o"
+	@echo "... matlab.i"
+	@echo "... matlab.s"
 	@echo "... mvdr_impl.o"
 	@echo "... mvdr_impl.i"
 	@echo "... mvdr_impl.s"

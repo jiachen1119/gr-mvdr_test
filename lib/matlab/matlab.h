@@ -16,7 +16,7 @@ public:
     matlab_matRead(std::string &file_name,std::string &struct_name);
     virtual ~matlab_matRead();
     int calculate_xcor(const matlab_matRead& xcor_array, int target_prn);
-    arma::mat getAbsoluteSample(int syncIndex, int prn, int sampleToProcess);
+    double getAbsoluteSample(int syncIndex, int prn);
     arma::mat getCarrierPhase(int syncIndex, int prn,int sampleToProcess);
 
     const std::vector<arma::mat> &getIPsMat() const;

@@ -97,7 +97,7 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"pythonapi\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -262,58 +262,6 @@ copy_module_for_tests/fast:
 	$(MAKE) $(MAKESILENT) -f python/mvdr_test/CMakeFiles/copy_module_for_tests.dir/build.make python/mvdr_test/CMakeFiles/copy_module_for_tests.dir/build
 .PHONY : copy_module_for_tests/fast
 
-#=============================================================================
-# Target rules for targets named mvdr_test_python
-
-# Build rule for target.
-mvdr_test_python: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mvdr_test_python
-.PHONY : mvdr_test_python
-
-# fast build rule for target.
-mvdr_test_python/fast:
-	$(MAKE) $(MAKESILENT) -f python/mvdr_test/bindings/CMakeFiles/mvdr_test_python.dir/build.make python/mvdr_test/bindings/CMakeFiles/mvdr_test_python.dir/build
-.PHONY : mvdr_test_python/fast
-
-#=============================================================================
-# Target rules for targets named extracted_docstrings
-
-# Build rule for target.
-extracted_docstrings: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extracted_docstrings
-.PHONY : extracted_docstrings
-
-# fast build rule for target.
-extracted_docstrings/fast:
-	$(MAKE) $(MAKESILENT) -f python/mvdr_test/bindings/CMakeFiles/extracted_docstrings.dir/build.make python/mvdr_test/bindings/CMakeFiles/extracted_docstrings.dir/build
-.PHONY : extracted_docstrings/fast
-
-#=============================================================================
-# Target rules for targets named mvdr_test_docstrings
-
-# Build rule for target.
-mvdr_test_docstrings: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mvdr_test_docstrings
-.PHONY : mvdr_test_docstrings
-
-# fast build rule for target.
-mvdr_test_docstrings/fast:
-	$(MAKE) $(MAKESILENT) -f python/mvdr_test/bindings/CMakeFiles/mvdr_test_docstrings.dir/build.make python/mvdr_test/bindings/CMakeFiles/mvdr_test_docstrings.dir/build
-.PHONY : mvdr_test_docstrings/fast
-
-#=============================================================================
-# Target rules for targets named copy_bindings_for_tests
-
-# Build rule for target.
-copy_bindings_for_tests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 copy_bindings_for_tests
-.PHONY : copy_bindings_for_tests
-
-# fast build rule for target.
-copy_bindings_for_tests/fast:
-	$(MAKE) $(MAKESILENT) -f python/mvdr_test/bindings/CMakeFiles/copy_bindings_for_tests.dir/build.make python/mvdr_test/bindings/CMakeFiles/copy_bindings_for_tests.dir/build
-.PHONY : copy_bindings_for_tests/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -327,16 +275,12 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... copy_bindings_for_tests"
 	@echo "... copy_module_for_tests"
 	@echo "... doxygen_target"
-	@echo "... extracted_docstrings"
-	@echo "... mvdr_test_docstrings"
 	@echo "... pygen_apps_9a6dd"
 	@echo "... pygen_python_mvdr_test_d072e"
 	@echo "... uninstall"
 	@echo "... gnuradio-mvdr_test"
-	@echo "... mvdr_test_python"
 	@echo "... mvdr_test_qa_mvdr.cc"
 .PHONY : help
 

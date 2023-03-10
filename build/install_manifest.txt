@@ -142,5 +142,4 @@
 /usr/local/lib/python3.10/dist-packages/gnuradio/mvdr_test/__init__.py
 /usr/local/lib/python3.10/dist-packages/gnuradio/mvdr_test/__init__.pyc
 /usr/local/lib/python3.10/dist-packages/gnuradio/mvdr_test/__init__.pyo
-/usr/local/lib/python3.10/dist-packages/gnuradio/mvdr_test/mvdr_test_python.cpython-310-x86_64-linux-gnu.so
 /usr/local/share/gnuradio/grc/blocks/mvdr_test_mvdr.block.yml

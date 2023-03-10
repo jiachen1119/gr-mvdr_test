@@ -92,8 +92,15 @@ mvdr_test_qa_mvdr_cc_EXTERNAL_OBJECTS =
 
 lib/mvdr_test_qa_mvdr.cc: lib/CMakeFiles/mvdr_test_qa_mvdr.cc.dir/qa_mvdr.cc.o
 lib/mvdr_test_qa_mvdr.cc: lib/CMakeFiles/mvdr_test_qa_mvdr.cc.dir/build.make
+lib/mvdr_test_qa_mvdr.cc: /usr/local/MATLAB/R2022b/bin/glnxa64/libeng.so
+lib/mvdr_test_qa_mvdr.cc: /usr/local/MATLAB/R2022b/bin/glnxa64/libmx.so
+lib/mvdr_test_qa_mvdr.cc: /usr/local/MATLAB/R2022b/bin/glnxa64/libmat.so
 lib/mvdr_test_qa_mvdr.cc: lib/libgnuradio-mvdr_test.so.1.0.0.0
 lib/mvdr_test_qa_mvdr.cc: /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0
+lib/mvdr_test_qa_mvdr.cc: /usr/local/MATLAB/R2022b/bin/glnxa64/libeng.so
+lib/mvdr_test_qa_mvdr.cc: /usr/local/MATLAB/R2022b/bin/glnxa64/libmx.so
+lib/mvdr_test_qa_mvdr.cc: /usr/local/MATLAB/R2022b/bin/glnxa64/libmat.so
+lib/mvdr_test_qa_mvdr.cc: /usr/lib/libarmadillo.so
 lib/mvdr_test_qa_mvdr.cc: /usr/lib/x86_64-linux-gnu/libgnuradio-runtime.so.3.10.1.1
 lib/mvdr_test_qa_mvdr.cc: /usr/lib/x86_64-linux-gnu/libgnuradio-pmt.so.3.10.1.1
 lib/mvdr_test_qa_mvdr.cc: /usr/lib/x86_64-linux-gnu/libvolk.so.2.5.1
